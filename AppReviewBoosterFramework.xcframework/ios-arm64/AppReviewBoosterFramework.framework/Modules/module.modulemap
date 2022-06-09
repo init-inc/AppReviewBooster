@@ -1,0 +1,11 @@
+framework module AppReviewBoosterFramework {
+  umbrella header "AppReviewBoosterFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module AppReviewBoosterFramework.Swift {
+    header "AppReviewBoosterFramework-Swift.h"
+    requires objc
+}
